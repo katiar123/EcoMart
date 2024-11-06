@@ -1,0 +1,65 @@
+name: komplekku
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  carousel_slider: ^4.0.0
+  google_fonts: ^3.0.1
+  cupertino_icons: ^1.0.6
+  provider: ^6.0.5
+  intl: ^0.18.0
+  http: ^0.13.3
+  shared_preferences: ^2.0.13
+  image_picker: ^0.8.7+3 
+  web_socket_channel: ^2.1.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.10.0
+
+  
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo.jpg"  
+
+flutter:
+  assets:
+    - assets/visa.png
+    - assets/mastercard.png
+    - assets/dana.png
+    - assets/iklan.png
+    - assets/error.png
+    - assets/bca.png
+    - assets/bni.png
+    - assets/bri.png
+    - assets/mandiri.png
+    - assets/transfer.png
+    - assets/kredit.png
+    - assets/ewallet.png
+    - assets/transaksi.png
+    - assets/cart.png
+    - assets/box.png
+    - assets/star.png
+    - assets/truck.png
+    - assets/linkaja.jpg
+    - assets/spay.jpg
+    - assets/ovo.jpg
+    - assets/gopay.jpg
+
+
+  uses-material-design: true
+
+  fonts:
+    - family: Pacifico
+      fonts:
+        - asset: assets/fonts/Pacifico-Regular.ttf
